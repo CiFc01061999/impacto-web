@@ -1,79 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impacto de las tecnologías web</title>
-</head>
-<body>
-   <header class="cabecera-inicio">
-    <img src="img/logo-utpl.png"
-         alt="UTPL — Universidad Técnica Particular de Loja"
-         class="logo-utpl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Impacto de las tecnologías web</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <header class="cabecera-inicio">
+            <img src="img/logo-utpl.png"
+            alt="UTPL — Universidad Técnica Particular de Loja"
+            class="logo-utpl">
 
-    <div>
-        <h1>Impacto de las tecnologías web en la sociedad y en los negocios</h1>
-        <p>Cómo la web transforma nuestra vida y nuestra forma de trabajar.</p>
-    </div>
-    <style>
-    .cabecera-inicio {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
+            <div>
+                <h1>Impacto de las tecnologías web en la sociedad y en los negocios</h1>
+                <p>Cómo la web transforma nuestra vida y nuestra forma de trabajar.</p>
+            </div>
+        </header>
 
-    .logo-utpl {
-        width: 180px;
-        max-width: 100%;
-        height: auto;
-    }
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Inicio</a></li>
+                <li><a href="pages/sociedad.html">Sociedad</a></li>
+                <li><a href="pages/negocios.html">Negocios</a></li>
+                <li><a href="pages/retos.html">Retos</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
 
-    .cabecera-inicio div {
-        flex: 1 1 260px;
-    }
-</style>
-</header>
+        <main>
+            <section>
+                <h2>Bienvenido</h2>
+                <p>
+                    Las tecnologías web permiten compartir información, aprender,
+                    comunicarnos y realizar negocios por Internet.
+                    En este sitio exploraremos sus beneficios y desafíos.
+                </p>
+            </section>
+            <section>
+                <h2>El impacto de las tecnologías web</h2>
 
-    <nav aria-label="Navegación principal">
-        <ul>
-            <li><a href="index.html" aria-current="page">Inicio</a></li>
-            <li><a href="Pages/Sociedad.html">Sociedad</a></li>
-            <li><a href="Pages/Negocios.html">Negocios</a></li>
-            <li><a href="Pages/Retos.html">Retos</a></li>
-            <li><a href="Pages/Contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+                <iframe
+                    src="https://www.youtube.com/embed/NOf16-eDhrM"
+                    title="El impacto de la tecnología en la sociedad moderna"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    style="display: block; width: 100%; max-width: 640px; aspect-ratio: 16 / 9; border: 0;"
+                    allowfullscreen>
+                </iframe>
 
-    <main>
-        <section>
-            <h2>Bienvenido</h2>
-            <p>
-                Las tecnologías web permiten compartir información, aprender,
-                comunicarnos y realizar negocios por Internet.
-                En este sitio exploraremos sus beneficios y desafíos.
-            </p>
-        </section>
-        <section>
-    <h2>El impacto de las tecnologías web</h2>
+                <p><a href="https://youtu.be/NOf16-eDhrM">Ver el video en YouTube</a></p>
+                <p class="referencia-video">Vida TV. (2025, 7 de mayo). <cite>El impacto de la tecnología en la sociedad moderna #vidatv</cite> [Video]. YouTube.</p>
+            </section>
+        </main>
 
-    <iframe
-        src="https://www.youtube.com/embed/NOf16-eDhrM"
-        title="Impacto de las tecnologias en la edad contemporanea"
-        loading="lazy"
-        referrerpolicy="strict-origin-when-cross-origin"
-        style="display: block; width: 100%; max-width: 640px; aspect-ratio: 16 / 9; border: 0;"
-        allowfullscreen>
-    </iframe>
-
-    <p><a href="https://youtu.be/NOf16-eDhrM">Ver el video en YouTube</a></p>
-</section>
-    </main>
-
-    <footer>
-        <p>Proyecto académico de HTML5</p>
-    </footer>
-</body>
+        <footer>
+            <p>Proyecto académico de HTML5</p>
+        </footer>
+    </body>
 </html>
-
-   

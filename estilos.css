@@ -1,0 +1,66 @@
+body {
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 56rem;
+    color: #202832;
+    font: 1rem/1.55 system-ui, sans-serif;
+}
+
+.cabecera-inicio {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logo-utpl {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+}
+
+.cabecera-inicio div {
+    flex: 1 1 260px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    padding: 0;
+    list-style: none;
+}
+
+a { color: #145795; }
+nav [aria-current] { font-weight: bold; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption { margin-bottom: 0.5rem; }
+th, td {
+    border: 1px solid #afb9c4;
+    padding: 0.5rem;
+    text-align: left;
+}
+thead { background: #eaf1f7; }
+
+aside {
+    padding: 0.25rem 1rem;
+    border-left: 3px solid #145795;
+    background: #f1f6fa;
+}
+
+.referencias p {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+    overflow-wrap: anywhere;
+}
+
+img { max-width: 100%; }
+dialog { max-width: min(26rem, 85vw); }
+input, textarea, button { font: inherit; }
+input, textarea { max-width: 100%; }
+footer { margin-top: 2rem; }
